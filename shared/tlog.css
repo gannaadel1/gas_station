@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(#292542, #134074) ;
+    background-attachment: fixed;
+}
+img{
+	width: 100%;
+}
+.login {
+    width: 100%;
+    margin: 2% auto;
+}
+.login_box {
+    width: 1050px;
+    height: 550px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    border-radius: 10px;
+ 
+}
+.login_box .left{
+  width: 40%;
+  padding: 25px 25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.login_box .right{
+  width: 60%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.left .top_link a {
+    color: #134074;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.left h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.left input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+.left{
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    background: #134074;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px #ef873f;
+    -moz-box-shadow: 0px 9px 15px -11px #ef873f;
+    box-shadow: 0px 9px 15px -11px #ef873f;
+    transition: all linear 0.1s 0.1s;
+}
+.submit:hover{
+    background-color: #ef873f;
+}
+
+
+
+.right {
+	background: linear-gradient(212.38deg, rgba(158, 157, 173, 0.7) 0%, rgba(49, 86, 222, 0.71) 100%),url(../images/station.png);
+	color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: no-clip;
+    background-size: cover;
+}
+
+.right .right-text{
+    margin-top: 60px;
+}
+.right-text h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.right .right-inductor{
+  position: absolute;
+  width: 70px;
+  height: 7px;
+  background: #fff0;
+  left: 50%;
+  bottom: 70px;
+  transform: translate(-50%, 0%);
+}
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+  
+}
+.err
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  color: red;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-valid  {
+    opacity:0.5;
+  }
+  
+  .form-control-label abbr {
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .btn-secondary{
+    padding-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 auto;
+    background-color: #ef873f;
+    border-radius: 10px;
+    width: 150x;
+    height: 50px;
+  }
+  .bot {display: flex;
+margin: 5px;
+justify-content: space-between;}
+label{
+  
+    font-size:x-large;
+}
+.cashs{
+    margin: 25px;
+display: inline;
+}
+.creditcards{
+    display: inline;
+}

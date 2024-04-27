@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.drop-down{
+    width: 70px;
+    height: 38px;
+    margin-right: 5px;
+}
+.done{
+    margin-right: 5px;
+}

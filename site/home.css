@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin: 20px 0px;
+  width: 100%;
+  
+}
+.about img{
+  width: 15em;
+  height: 200px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.text{
+  width: 20em;
+}
+.text p{
+  color: black;
+}
+.text h2{
+  color: #2B6CCF;
+}
+.about_btn input{
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background: #2B6CCF;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  transition: 1s ease;
+}
+.about_btn input:hover{
+  transform: scale(1.1);
+}
+
+.price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  margin: 20px 0px;
+  height: 20em;
+}
+.price img{
+  width: 15em;
+  height: 200px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.text{
+  width: 20em;
+}
+.text h2{
+  color: #2B6CCF;
+}
+.price_btn input{
+  margin-top: 30px;
+  padding: 8px 16px;
+  border-radius: 15px;
+  background: #2B6CCF;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  transition: 1s ease;
+}
+.price_btn input:hover{
+  transform: scale(1.1);
+}
+@media (max-width:700px) {
+  .about{
+    flex-wrap: wrap;
+  }
+  .about .text{
+    margin-top: 5px;
+  }
+  .about img{
+    width: 300px;
+  }
+  .price{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 30em;
+  }
+  .price .text{
+    margin-top: 5px;
+  }
+  .price img{
+    width: 300px;
+  }
+}
+
+
+.cards{
+  width: 100%;
+  margin-top: 20px;
+  height: 20em;
+  background-image: linear-gradient(#292542, #134074);
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width:700px){
+  .cards{
+    height: 40em;
+  }
+}
+.card{
+  text-align: center;
+  background: white;
+  width: 10em;
+  height: 15em;
+  margin-right: 2em;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 1000);
+  border-radius: 15px !important;
+  overflow: hidden;
+transition: 0.7s ease;
+}
+.info{
+  padding: .2em 10px;
+}
+.info p{
+  font-size: .9rem;
+  margin: .2em 0;
+  width: 7em;
+}
+.card button{
+  padding: 10px 30px;
+}
+button{
+  border-radius: 15px !important;
+  background: #2B6CCF;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.card img{
+  width: 100%;
+  height: 60%;
+}
+
+.car{
+  margin: 50px;
+  width: 300px;
+  height: 150px;
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+}
+@keyframes moveToRight {
+  0%{
+    transform: translatex(0px);
+  }
+  100%{
+    transform: translateX(300px);
+
+  }
+}
